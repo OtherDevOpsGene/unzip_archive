@@ -4,11 +4,10 @@
 #
 # Copyright:: 2020, Coveros, Inc., All Rights Reserved.
 
-directory node['unzip_archive']['target_dir'] do
-  action :create
-end
+source = 'C:/Users/ggotimer/Documents/archive.zip'
+target_dir = 'C:/Users/ggotimer/Documents/exploded'
 
-archive_file node['unzip_archive']['source'] do
-  destination node['unzip_archive']['target_dir']
+archive_file source do
+  destination target_dir
   action :extract
 end

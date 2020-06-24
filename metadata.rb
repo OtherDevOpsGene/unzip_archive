@@ -3,7 +3,7 @@ maintainer 'Coveros, Inc.'
 maintainer_email 'gene.gotimer@coveros.com'
 license 'All Rights Reserved'
 description 'Unzips an archive'
-version '0.1.1'
+version '0.2.0'
 chef_version '>= 14.0'
 
 supports 'windows'
